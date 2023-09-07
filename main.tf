@@ -199,7 +199,7 @@ resource "aws_key_pair" "hashicat" {
 }
 
 module "s3-bucket" {
-  source  = "app.terraform.io/anuragdemo/s3-bucket/aws"
+  source  = "app.terraform.io/anuragtest/s3-bucket/aws"
   version = "3.1.3"
   s3_object_ownership = "BucketOwnerEnforced"
 }
